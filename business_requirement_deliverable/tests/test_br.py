@@ -328,7 +328,7 @@ class BusinessRequirementTestCase(common.TransactionCase):
         self.br.write({'partner_id': self.partner.id})
         try:
             self.br.partner_id_change()
-        except UserError, e:
+        except UserError as e:
             self.assertEqual(type(e), UserError)
 
     def test_business_requirement_id_change(self):
