@@ -12,8 +12,7 @@
     'depends': [
         'business_requirement_deliverable',
         'project',
-        'hr_timesheet',
-        'project_parent'
+        'hr_timesheet'
     ],
     'data': [
         'views/business_view.xml',

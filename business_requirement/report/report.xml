@@ -8,7 +8,7 @@
             file="business_requirement.br_report"
     />
 
-    <record id="business_requirement_report" model="ir.actions.report.xml">
+    <record id="business_requirement_report" model="ir.actions.report">
         <field name="paperformat_id"
                ref="business_requirement.br_report_paperformat_eu"/>
     </record>
